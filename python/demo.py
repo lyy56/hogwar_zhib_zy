@@ -8,12 +8,15 @@ def fun_1():
 
 
 def ret():
-    return 1
+    he = 'True'
+    if he == "True":
+        print("True")
+    else:
+        return 1
 
 
 def ret_1():
     print("无返回值")
-
 
 fun()
 fun_1()
